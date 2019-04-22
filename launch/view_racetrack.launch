@@ -1,0 +1,7 @@
+<launch>
+  <!-- Show Gazebo GUI on launch -->
+  <include file="$(find aws_robomaker_racetrack_world)/launch/racetrack.launch">
+    <arg name="gui" value="true"/>
+    <arg name="world_version" value="day"/>
+  </include>
+</launch>

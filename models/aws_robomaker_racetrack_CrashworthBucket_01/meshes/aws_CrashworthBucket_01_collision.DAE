@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-10-12T02:54:41Z</created><keywords></keywords><modified>2018-10-12T02:54:41Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="aws_CrashworthBucket_01_collision-lib" name="aws_CrashworthBucket_01_collisionMesh">
+      <mesh>
+        <source id="aws_CrashworthBucket_01_collision-POSITION">
+          <float_array id="aws_CrashworthBucket_01_collision-POSITION-array" count="48">
+38.719639 0.000000 0.000000
+27.378920 27.378922 0.000000
+-0.000002 38.719639 0.000000
+-27.378920 27.378922 0.000000
+-38.719639 -0.000003 0.000000
+-27.378914 -27.378922 0.000000
+0.000000 -38.719639 0.000000
+27.378916 -27.378922 0.000000
+38.719639 0.000000 147.202652
+27.378920 27.378920 147.202652
+-0.000002 38.719639 147.202652
+-27.378920 27.378920 147.202652
+-38.719639 -0.000003 147.202652
+-27.378914 -27.378923 147.202652
+0.000000 -38.719639 147.202652
+27.378916 -27.378923 147.202652
+</float_array>
+          <technique_common>
+            <accessor source="#aws_CrashworthBucket_01_collision-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_CrashworthBucket_01_collision-Normal0">
+          <float_array id="aws_CrashworthBucket_01_collision-Normal0-array" count="252">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+1.000000 0.000000 0.000000
+0.707107 0.707107 0.000000
+0.707107 0.707107 0.000000
+0.707107 0.707107 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.707107 0.707107 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.707107 0.707107 0.000000
+0.707107 0.707107 0.000000
+0.000000 1.000000 0.000000
+-0.707107 0.707107 0.000000
+-0.707107 0.707107 0.000000
+-0.707107 0.707107 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-0.707107 0.707107 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 0.707107 0.000000
+-0.707107 0.707107 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 -0.707107 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+0.000000 -1.000000 0.000000
+0.707107 -0.707107 0.000000
+0.707107 -0.707107 0.000000
+0.707107 -0.707107 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.707107 -0.707107 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.707107 -0.707107 0.000000
+0.707107 -0.707107 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_CrashworthBucket_01_collision-Normal0-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_CrashworthBucket_01_collision-UV0">
+          <float_array id="aws_CrashworthBucket_01_collision-UV0-array" count="48">
+0.750000 0.000000
+0.875000 0.000000
+0.000000 0.000000
+0.125000 0.000000
+0.250000 0.000000
+0.375000 0.000000
+0.500000 0.000000
+0.625000 0.000000
+0.750000 1.000000
+0.875000 1.000000
+0.000000 1.000000
+0.125000 1.000000
+0.250000 1.000000
+0.375000 1.000000
+0.500000 1.000000
+0.625000 1.000000
+-0.125000 0.000000
+-0.125000 1.000000
+0.780330 0.000000
+0.521447 0.000000
+0.250000 0.000000
+0.125000 0.000000
+0.219670 0.000000
+0.478553 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_CrashworthBucket_01_collision-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_CrashworthBucket_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_CrashworthBucket_01_collision-POSITION"/>
+        </vertices>
+        <polylist count="28"><input semantic="VERTEX" offset="0" source="#aws_CrashworthBucket_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_CrashworthBucket_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_CrashworthBucket_01_collision-UV0"/><vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount><p> 6 0 22 5 1 21 4 2 20 4 3 20 3 4 19 2 5 18 2 6 18 1 7 1 0 8 0 4 9 20 2 10 18 0 11 0 6 12 22 4 13 20 0 14 0 7 15 23 6 16 22 0 17 0 0 18 0 1 19 1 9 20 9 9 21 9 8 22 8 0 23 0 1 24 16 2 25 2 10 26 10 10 27 10 9 28 17 1 29 16 2 30 2 3 31 3 11 32 11 11 33 11 10 34 10 2 35 2 3 36 3 4 37 4 12 38 12 12 39 12 11 40 11 3 41 3 4 42 4 5 43 5 13 44 13 13 45 13 12 46 12 4 47 4 5 48 5 6 49 6 14 50 14 14 51 14 13 52 13 5 53 5 6 54 6 7 55 7 15 56 15 15 57 15 14 58 14 6 59 6 7 60 7 0 61 0 8 62 8 8 63 8 15 64 15 7 65 7 10 66 10 13 67 13 14 68 14 14 69 14 9 70 9 10 71 10 14 72 14 15 73 15 8 74 8 8 75 8 9 76 9 14 77 14 12 78 12 13 79 13 10 80 10 10 81 10 11 82 11 12 83 12</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_CrashworthBucket_01_collision" name="aws_CrashworthBucket_01_collision">
+      <node name="aws_CrashworthBucket_01_collision" id="aws_CrashworthBucket_01_collision" sid="aws_CrashworthBucket_01_collision"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_CrashworthBucket_01_collision-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_CrashworthBucket_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-09-30T13:13:42Z</created><keywords></keywords><modified>2018-09-30T13:13:42Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="aws_Light_01_collision-lib" name="aws_Light_01_collisionMesh">
+      <mesh>
+        <source id="aws_Light_01_collision-POSITION">
+          <float_array id="aws_Light_01_collision-POSITION-array" count="24">
+-188.539200 -25.980820 -57.832363
+188.657715 -25.980820 -57.832363
+-188.539200 61.280842 -57.832367
+188.657745 61.280842 -57.832367
+-188.539215 4.086321 137.230698
+188.657745 4.086321 137.230698
+-188.539200 101.145493 137.230469
+188.657715 101.145493 137.230469
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Light_01_collision-Normal0">
+          <float_array id="aws_Light_01_collision-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 -0.988328 0.152341
+0.000000 -0.988328 0.152341
+0.000000 -0.988328 0.152341
+0.000000 -0.988328 0.152341
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.979749 -0.200230
+0.000000 0.979749 -0.200230
+0.000000 0.979749 -0.200230
+0.000000 0.979749 -0.200230
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Light_01_collision-UV0">
+          <float_array id="aws_Light_01_collision-UV0-array" count="48">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Light_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_Light_01_collision-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Light_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Light_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Light_01_collision-UV0"/><vcount>4 4 4 4 4 4 </vcount><p> 0 0 0 2 1 2 3 2 3 1 3 1 4 4 4 5 5 5 7 6 7 6 7 6 0 8 8 1 9 9 5 10 11 4 11 10 1 12 12 3 13 13 7 14 15 5 15 14 3 16 16 2 17 17 6 18 19 7 19 18 2 20 20 0 21 21 4 22 23 6 23 22</p></polylist>
+      </mesh>
+    </geometry>
+    <geometry id="aws_Light_01_collision_ncl1_1-lib" name="aws_Light_01_collision_ncl1_1Mesh">
+      <mesh>
+        <source id="aws_Light_01_collision_ncl1_1-POSITION">
+          <float_array id="aws_Light_01_collision_ncl1_1-POSITION-array" count="24">
+-32.988564 -37.897942 -3.122803
+28.580856 -37.897942 -3.122803
+-32.988564 27.688639 -2.618896
+28.580854 27.688639 -2.618896
+-23.799940 -24.601948 1344.688110
+23.799940 -24.601948 1344.688110
+-23.799938 14.789907 1345.192017
+23.799938 14.789907 1345.192017
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision_ncl1_1-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Light_01_collision_ncl1_1-Normal0">
+          <float_array id="aws_Light_01_collision_ncl1_1-Normal0-array" count="72">
+0.000000 0.010670 -0.999943
+0.000000 0.012194 -0.999926
+0.000000 0.012194 -0.999926
+0.000000 0.010670 -0.999943
+0.000000 -0.012685 0.999919
+0.000000 -0.012685 0.999919
+0.000000 -0.012590 0.999921
+0.000000 -0.012590 0.999921
+0.000000 -0.999925 -0.012207
+0.000000 -0.999925 -0.012207
+0.000000 -0.999923 -0.012398
+0.000000 -0.999923 -0.012398
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.999925 0.012208
+0.000000 0.999925 0.012208
+0.000000 0.999918 0.012780
+0.000000 0.999918 0.012780
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision_ncl1_1-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Light_01_collision_ncl1_1-UV0">
+          <float_array id="aws_Light_01_collision_ncl1_1-UV0-array" count="96">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Light_01_collision_ncl1_1-UV0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Light_01_collision_ncl1_1-VERTEX">
+          <input semantic="POSITION" source="#aws_Light_01_collision_ncl1_1-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Light_01_collision_ncl1_1-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Light_01_collision_ncl1_1-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Light_01_collision_ncl1_1-UV0"/><vcount>4 4 4 4 4 4 </vcount><p> 0 0 24 2 1 26 3 2 27 1 3 25 4 4 28 5 5 29 7 6 31 6 7 30 0 8 32 1 9 33 5 10 35 4 11 34 1 12 36 3 13 37 7 14 39 5 15 38 3 16 40 2 17 41 6 18 43 7 19 42 2 20 44 0 21 45 4 22 47 6 23 46</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_Light_01_collision" name="aws_Light_01_collision">
+      <node name="aws_Light_01_collision" id="aws_Light_01_collision" sid="aws_Light_01_collision"><matrix sid="matrix">0.817979 0.000000 0.000000 0.000000 0.000000 0.817979 0.000000 -26.757889 0.000000 0.000000 0.817979 1391.816528 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Light_01_collision-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="aws_Light_01_collision_ncl1_1" id="aws_Light_01_collision_ncl1_1" sid="aws_Light_01_collision_ncl1_1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -12.731018 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Light_01_collision_ncl1_1-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_Light_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>

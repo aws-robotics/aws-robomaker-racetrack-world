@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-10-03T08:16:54Z</created><keywords></keywords><modified>2018-10-03T08:16:54Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_images>
+    <image id="MapFBXASC032FBXASC0352-image" name="MapFBXASC032FBXASC0352"><init_from>../materials/textures/aws_StopSign_01.png</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="MaterialFBXASC032FBXASC03548" name="MaterialFBXASC032FBXASC03548">
+      <instance_effect url="#MaterialFBXASC032FBXASC03548-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="MaterialFBXASC032FBXASC03548-fx" name="MaterialFBXASC032FBXASC03548">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="MapFBXASC032FBXASC0352-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="aws_GuideBoard_01_visual-lib" name="aws_GuideBoard_01_visualMesh">
+      <mesh>
+        <source id="aws_GuideBoard_01_visual-POSITION">
+          <float_array id="aws_GuideBoard_01_visual-POSITION-array" count="96">
+20.169487 0.308215 161.645532
+20.169491 0.308214 178.354486
+8.354486 0.308214 190.169502
+-8.354467 0.308214 190.169510
+-20.169485 0.308215 178.354496
+-20.169491 0.308216 161.645541
+-8.354483 0.308216 149.830526
+8.354468 0.308216 149.830519
+20.169487 -2.117486 161.645532
+20.169491 -2.117487 178.354486
+8.354486 -2.117487 190.169502
+-8.354467 -2.117487 190.169510
+-20.169485 -2.117486 178.354496
+-20.169491 -2.117486 161.645541
+-8.354483 -2.117485 149.830526
+8.354468 -2.117486 149.830519
+0.504414 1.576272 0.000015
+-0.036785 2.117468 0.000000
+-0.802151 2.117468 0.000015
+-1.343349 1.576272 0.000015
+-1.343349 0.810904 0.000015
+-0.802151 0.269709 0.000015
+-0.036785 0.269709 0.000000
+0.504414 0.810904 0.000015
+0.504465 1.576291 171.375465
+-0.036730 2.117487 171.375462
+-0.802096 2.117487 171.375473
+-1.343291 1.576291 171.375471
+-1.343291 0.810924 171.375471
+-0.802096 0.269727 171.375471
+-0.036730 0.269727 171.375462
+0.504465 0.810924 171.375465
+</float_array>
+          <technique_common>
+            <accessor source="#aws_GuideBoard_01_visual-POSITION-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_GuideBoard_01_visual-Normal0">
+          <float_array id="aws_GuideBoard_01_visual-Normal0-array" count="306">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.923893 0.000000 -0.382651
+0.923910 -0.000000 0.382610
+0.923910 0.000000 0.382610
+0.923893 0.000000 -0.382651
+0.923910 -0.000000 0.382610
+0.382610 -0.000000 0.923910
+0.382610 0.000000 0.923910
+0.923910 0.000000 0.382610
+0.382610 -0.000000 0.923910
+-0.382692 -0.000000 0.923876
+-0.382692 0.000000 0.923876
+0.382610 0.000000 0.923910
+-0.382692 -0.000000 0.923876
+-0.923910 0.000000 0.382610
+-0.923910 0.000000 0.382610
+-0.382692 0.000000 0.923876
+-0.923910 0.000000 0.382610
+-0.923893 0.000000 -0.382651
+-0.923893 0.000000 -0.382651
+-0.923910 0.000000 0.382610
+-0.923893 0.000000 -0.382651
+-0.382708 0.000000 -0.923869
+-0.382708 0.000000 -0.923869
+-0.923893 0.000000 -0.382651
+-0.382708 0.000000 -0.923869
+0.382610 0.000000 -0.923910
+0.382610 0.000000 -0.923910
+-0.382708 0.000000 -0.923869
+0.382610 0.000000 -0.923910
+0.923893 0.000000 -0.382651
+0.923893 0.000000 -0.382651
+0.382610 0.000000 -0.923910
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.923813 0.382841 -0.001526
+0.382760 0.923847 0.001526
+0.382727 0.923862 0.000000
+0.923873 0.382698 0.000000
+0.382760 0.923847 0.001526
+-0.382763 0.923847 0.000000
+-0.382728 0.923861 0.000000
+0.382727 0.923862 0.000000
+-0.382763 0.923847 0.000000
+-0.923814 0.382841 0.000000
+-0.923873 0.382698 0.000000
+-0.382728 0.923861 0.000000
+-0.923814 0.382841 0.000000
+-0.923816 -0.382836 0.000000
+-0.923873 -0.382698 0.000000
+-0.923873 0.382698 0.000000
+-0.923816 -0.382836 0.000000
+-0.382763 -0.923847 0.000000
+-0.382728 -0.923861 0.000000
+-0.923873 -0.382698 0.000000
+-0.382763 -0.923847 0.000000
+0.382761 -0.923846 0.001526
+0.382728 -0.923861 0.000000
+-0.382728 -0.923861 0.000000
+0.382761 -0.923846 0.001526
+0.923814 -0.382838 -0.001526
+0.923872 -0.382701 0.000000
+0.382728 -0.923861 0.000000
+0.923814 -0.382838 -0.001526
+0.923813 0.382841 -0.001526
+0.923873 0.382698 0.000000
+0.923872 -0.382701 0.000000
+0.000000 0.000000 1.000000
+0.000042 -0.000001 1.000000
+0.000039 -0.000017 1.000000
+0.000039 0.000000 1.000000
+0.000036 0.000000 1.000000
+0.000036 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000039 0.000000 1.000000
+0.000000 -0.000012 1.000000
+0.000036 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000036 0.000000 1.000000
+0.000042 -0.000001 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_GuideBoard_01_visual-Normal0-array" count="102" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_GuideBoard_01_visual-UV0">
+          <float_array id="aws_GuideBoard_01_visual-UV0-array" count="120">
+0.135394 0.069118
+0.896542 0.069213
+0.896558 0.053430
+0.135381 0.053329
+0.787821 0.069106
+0.787835 0.053322
+0.679096 0.069015
+0.679107 0.053231
+0.570370 0.068957
+0.570376 0.053172
+0.461637 0.068944
+0.461636 0.053158
+0.352897 0.068972
+0.352890 0.053185
+0.244150 0.069034
+0.244139 0.053246
+0.631185 0.169253
+0.868312 0.406379
+0.058712 0.406379
+0.295838 0.169253
+0.868312 0.741727
+0.631185 0.978853
+0.295838 0.978853
+0.058712 0.741727
+0.026633 0.069213
+0.026620 0.053424
+0.999500 0.000500
+0.999500 0.017886
+-0.050376 0.031020
+-0.102004 0.016128
+0.999500 0.035272
+-0.101995 0.048409
+0.999500 0.052658
+-0.101995 0.065793
+0.999500 0.070044
+-0.101995 0.083181
+0.999500 0.087429
+-0.101995 0.100568
+0.999500 0.104815
+-0.101995 0.117953
+0.999500 0.122201
+-0.101967 0.136261
+0.262204 0.073875
+0.270707 0.077397
+0.265726 0.077396
+0.262203 0.068895
+0.265726 0.065372
+0.274229 0.068894
+0.274228 0.073876
+0.270707 0.065371
+0.999500 0.139587
+-0.119346 0.152072
+0.119207 0.005284
+0.061171 0.005284
+0.020132 0.046322
+0.160246 0.046322
+0.020132 0.104359
+0.061171 0.145397
+0.119207 0.145397
+0.160246 0.104359
+</float_array>
+          <technique_common>
+            <accessor source="#aws_GuideBoard_01_visual-UV0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_GuideBoard_01_visual-VERTEX">
+          <input semantic="POSITION" source="#aws_GuideBoard_01_visual-POSITION"/>
+        </vertices>
+        <polylist count="26" material="MaterialFBXASC032FBXASC03548"><input semantic="VERTEX" offset="0" source="#aws_GuideBoard_01_visual-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_GuideBoard_01_visual-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_GuideBoard_01_visual-UV0"/><vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 4 3 4 </vcount><p> 6 0 53 5 1 54 0 2 55 7 3 52 0 4 0 1 5 24 9 6 25 8 7 3 1 8 1 2 9 4 10 10 5 9 11 2 2 12 4 3 13 6 11 14 7 10 15 5 3 16 6 4 17 8 12 18 9 11 19 7 4 20 8 5 21 10 13 22 11 12 23 9 5 24 10 6 25 12 14 26 13 13 27 11 6 28 12 7 29 14 15 30 15 14 31 13 7 32 14 0 33 0 8 34 3 15 35 15 8 36 17 13 37 18 14 38 19 15 39 16 3 40 57 2 41 58 1 42 59 4 43 56 10 44 21 11 45 22 12 46 23 9 47 20 4 48 56 1 49 59 0 50 55 5 51 54 9 52 20 12 53 23 13 54 18 8 55 17 16 56 26 17 57 27 25 58 28 24 59 29 17 60 27 18 61 30 26 62 31 25 63 28 18 64 30 19 65 32 27 66 33 26 67 31 19 68 32 20 69 34 28 70 35 27 71 33 20 72 34 21 73 36 29 74 37 28 75 35 21 76 36 22 77 38 30 78 39 29 79 37 22 80 38 23 81 40 31 82 41 30 83 39 23 84 40 16 85 50 24 86 51 31 87 41 31 88 42 29 89 43 30 90 44 25 91 46 27 92 47 28 93 48 24 94 45 25 95 46 26 96 49 27 97 47 24 98 45 28 99 48 29 100 43 31 101 42</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_GuideBoard_01_visual" name="aws_GuideBoard_01_visual">
+      <node name="aws_GuideBoard_01_visual" id="aws_GuideBoard_01_visual" sid="aws_GuideBoard_01_visual"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000004 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_GuideBoard_01_visual-lib"><bind_material><technique_common><instance_material symbol="MaterialFBXASC032FBXASC03548" target="#MaterialFBXASC032FBXASC03548"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_GuideBoard_01_visual"></instance_visual_scene>
+  </scene>
+</COLLADA>

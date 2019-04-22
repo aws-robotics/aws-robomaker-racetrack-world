@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-10-12T03:18:04Z</created><keywords></keywords><modified>2018-10-12T03:18:04Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_images>
+    <image id="MapFBXASC032FBXASC0359-image" name="MapFBXASC032FBXASC0359"><init_from>../materials/textures/aws_StonePier_01.png</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="MaterialFBXASC032FBXASC03531" name="MaterialFBXASC032FBXASC03531">
+      <instance_effect url="#MaterialFBXASC032FBXASC03531-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="MaterialFBXASC032FBXASC03531-fx" name="MaterialFBXASC032FBXASC03531">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="MapFBXASC032FBXASC0359-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="aws_StonePier_01_visual-lib" name="aws_StonePier_01_visualMesh">
+      <mesh>
+        <source id="aws_StonePier_01_visual-POSITION">
+          <float_array id="aws_StonePier_01_visual-POSITION-array" count="60">
+-14.511588 82.392357 117.764305
+14.511594 82.392357 117.764320
+-14.511588 160.363548 117.764320
+14.511594 160.363548 117.764328
+-14.511596 82.392365 -117.764343
+14.511587 82.392365 -117.764343
+-12.206423 162.668724 -117.764343
+14.511587 160.363548 -117.764343
+45.162721 0.000016 117.764312
+-45.162787 0.000031 117.764305
+-45.162726 0.000023 -117.764343
+45.162782 0.000008 -117.764343
+-48.291575 25.763832 117.764305
+48.291505 25.762939 117.764312
+48.291574 25.762939 -117.764343
+-48.291510 25.763832 -117.764343
+-12.206416 162.668724 117.764321
+12.206422 162.668724 117.764327
+-14.511596 160.363548 -117.764343
+12.206415 162.668724 -117.764343
+</float_array>
+          <technique_common>
+            <accessor source="#aws_StonePier_01_visual-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_StonePier_01_visual-Normal0">
+          <float_array id="aws_StonePier_01_visual-Normal0-array" count="216">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.858809 0.512295 0.000000
+-0.858809 0.512295 0.000000
+-0.858809 0.512295 0.000000
+-0.858809 0.512295 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.858813 0.512289 0.000000
+0.858813 0.512289 0.000000
+0.858813 0.512289 0.000000
+0.858813 0.512289 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.992707 -0.120555 0.000000
+-0.992707 -0.120555 0.000000
+-0.992707 -0.120555 0.000000
+-0.992707 -0.120555 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.992706 -0.120560 0.000000
+0.992706 -0.120560 0.000000
+0.992706 -0.120560 0.000000
+0.992706 -0.120560 0.000000
+0.707107 0.707106 0.000000
+0.707107 0.707106 0.000000
+0.707107 0.707106 0.000000
+0.707107 0.707106 0.000000
+-0.707107 0.707106 0.000000
+-0.707107 0.707106 0.000000
+-0.707107 0.707106 0.000000
+-0.707107 0.707106 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_StonePier_01_visual-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_StonePier_01_visual-UV0">
+          <float_array id="aws_StonePier_01_visual-UV0-array" count="96">
+0.498794 0.803454
+0.498794 0.625035
+0.019468 0.625035
+0.019468 0.803454
+0.498794 0.803453
+0.005297 0.789282
+0.019468 0.625034
+0.498794 0.625034
+0.846915 1.011115
+0.846920 0.417374
+0.846920 0.417373
+0.846915 1.011114
+1.006904 0.434840
+0.006904 0.434840
+0.006904 0.103792
+1.006904 0.103792
+0.017481 0.950550
+1.017481 0.950550
+1.017481 0.567048
+0.017481 0.567049
+1.006904 0.103792
+0.006904 0.103792
+0.006904 0.434840
+1.006903 0.434840
+1.005297 0.991881
+1.005297 0.436608
+1.005297 0.436607
+1.005297 0.991880
+0.006904 0.675272
+1.006903 0.675272
+1.006903 0.675275
+0.006904 0.675275
+0.017481 0.706975
+1.017481 0.706974
+1.017481 0.810625
+0.017481 0.810625
+0.006904 0.784659
+1.006903 0.784659
+1.006903 0.784659
+0.006904 0.784659
+0.005297 0.789283
+0.005297 0.639206
+0.019468 0.803453
+0.005297 0.639205
+1.017481 0.690318
+0.017481 0.690319
+0.006904 0.149861
+1.006904 0.149861
+</float_array>
+          <technique_common>
+            <accessor source="#aws_StonePier_01_visual-UV0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_StonePier_01_visual-UV1">
+          <float_array id="aws_StonePier_01_visual-UV1-array" count="96">
+0.611584 0.513259
+0.611584 0.585714
+0.806237 0.585714
+0.806237 0.513259
+0.760771 0.206190
+0.755016 0.406598
+0.688315 0.400843
+0.688315 0.206190
+0.470213 0.428928
+0.470211 0.670045
+0.603985 0.064817
+0.845102 0.064819
+0.599540 0.197286
+0.005107 0.197286
+0.005107 0.000500
+0.599540 0.000500
+0.405894 0.990717
+0.993885 0.990717
+0.993885 0.765221
+0.405894 0.765222
+0.401530 0.999500
+0.401530 0.410501
+0.206543 0.410501
+0.206543 0.999499
+0.405894 0.436739
+0.405894 0.662234
+0.611796 0.000500
+0.837291 0.000500
+0.064929 0.410501
+0.064929 0.999499
+0.599540 0.340208
+0.005107 0.340208
+0.405894 0.692081
+0.993104 0.692080
+0.993104 0.752945
+0.405894 0.752945
+0.000500 0.410501
+0.000500 0.999499
+0.599540 0.405230
+0.005107 0.405230
+0.811992 0.519014
+0.811992 0.579960
+0.760771 0.400843
+0.694070 0.406598
+0.993104 0.682300
+0.405894 0.682300
+0.374395 0.410501
+0.374395 0.999500
+</float_array>
+          <technique_common>
+            <accessor source="#aws_StonePier_01_visual-UV1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_StonePier_01_visual-VERTEX">
+          <input semantic="POSITION" source="#aws_StonePier_01_visual-POSITION"/>
+        </vertices>
+        <polylist count="18" material="MaterialFBXASC032FBXASC03531"><input semantic="VERTEX" offset="0" source="#aws_StonePier_01_visual-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_StonePier_01_visual-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_StonePier_01_visual-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#aws_StonePier_01_visual-UV1"/><vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount><p> 2 0 3 3 3 1 2 2 17 2 41 41 16 3 40 40 7 4 6 6 18 5 42 42 6 6 5 5 19 7 43 43 8 8 19 19 9 9 16 16 10 10 17 17 11 11 18 18 7 12 14 14 3 13 15 15 1 14 12 12 5 15 13 13 16 16 35 35 17 17 32 32 19 18 33 33 6 19 34 34 0 20 23 23 2 21 20 20 18 22 21 21 4 23 22 22 12 24 8 8 13 25 9 9 1 26 1 1 0 27 0 0 0 28 23 23 4 29 22 22 15 30 28 28 12 31 29 29 15 32 11 11 4 33 4 4 5 34 7 7 14 35 10 10 13 36 30 30 14 37 31 31 5 38 13 13 1 39 12 12 13 40 9 9 12 41 8 8 9 42 24 24 8 43 25 25 9 44 37 37 12 45 29 29 15 46 28 28 10 47 36 36 10 48 27 27 15 49 11 11 14 50 10 10 11 51 26 26 14 52 31 31 13 53 30 30 8 54 38 38 11 55 39 39 7 56 44 44 19 57 33 33 17 58 32 32 3 59 45 45 6 60 46 46 18 61 21 21 2 62 20 20 16 63 47 47 0 64 0 0 1 65 1 1 3 66 2 2 2 67 3 3 5 68 7 7 4 69 4 4 18 70 42 42 7 71 6 6</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_StonePier_01_visual" name="aws_StonePier_01_visual">
+      <node name="aws_StonePier_01_visual" id="aws_StonePier_01_visual" sid="aws_StonePier_01_visual"><matrix sid="matrix">-0.000000 -0.000000 -1.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_StonePier_01_visual-lib"><bind_material><technique_common><instance_material symbol="MaterialFBXASC032FBXASC03531" target="#MaterialFBXASC032FBXASC03531"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_StonePier_01_visual"></instance_visual_scene>
+  </scene>
+</COLLADA>

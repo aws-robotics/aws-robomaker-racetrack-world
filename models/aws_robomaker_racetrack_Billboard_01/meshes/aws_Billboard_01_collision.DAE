@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-10-08T07:20:48Z</created><keywords></keywords><modified>2018-10-08T07:20:48Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="aws_Billboard_01_collision-lib" name="aws_Billboard_01_collisionMesh">
+      <mesh>
+        <source id="aws_Billboard_01_collision-POSITION">
+          <float_array id="aws_Billboard_01_collision-POSITION-array" count="24">
+-1188.396973 -68.899582 853.282715
+-1188.396973 42.626461 853.282715
+1208.575439 42.626461 853.282715
+1208.575439 -68.899574 853.282715
+-1188.396973 -68.899582 1371.787109
+1208.575439 -68.899582 1371.787109
+1208.575439 42.626461 1371.787109
+-1188.396973 42.626461 1371.787109
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision-Normal0">
+          <float_array id="aws_Billboard_01_collision-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision-UV0">
+          <float_array id="aws_Billboard_01_collision-UV0-array" count="48">
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Billboard_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_Billboard_01_collision-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Billboard_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Billboard_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Billboard_01_collision-UV0"/><vcount>4 4 4 4 4 4 </vcount><p> 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 0 8 8 3 9 9 5 10 10 4 11 11 3 12 12 2 13 13 6 14 14 5 15 15 2 16 16 1 17 17 7 18 18 6 19 19 1 20 20 0 21 21 4 22 22 7 23 23</p></polylist>
+      </mesh>
+    </geometry>
+    <geometry id="aws_Billboard_01_collision_ncl1_1-lib" name="aws_Billboard_01_collision_ncl1_1Mesh">
+      <mesh>
+        <source id="aws_Billboard_01_collision_ncl1_1-POSITION">
+          <float_array id="aws_Billboard_01_collision_ncl1_1-POSITION-array" count="24">
+-1363.942627 -45.602936 0.000008
+-1178.917847 -45.602936 0.000008
+-1363.942627 18.929718 0.000008
+-1178.917847 18.929718 0.000008
+-1363.942627 -45.602936 1113.175659
+-1178.917847 -45.602936 1113.175659
+-1363.942627 18.929718 1113.175659
+-1178.917847 18.929718 1113.175659
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_1-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision_ncl1_1-Normal0">
+          <float_array id="aws_Billboard_01_collision_ncl1_1-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_1-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision_ncl1_1-UV0">
+          <float_array id="aws_Billboard_01_collision_ncl1_1-UV0-array" count="48">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_1-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Billboard_01_collision_ncl1_1-VERTEX">
+          <input semantic="POSITION" source="#aws_Billboard_01_collision_ncl1_1-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Billboard_01_collision_ncl1_1-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Billboard_01_collision_ncl1_1-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Billboard_01_collision_ncl1_1-UV0"/><vcount>4 4 4 4 4 4 </vcount><p> 0 0 0 2 1 2 3 2 3 1 3 1 4 4 4 5 5 5 7 6 7 6 7 6 0 8 8 1 9 9 5 10 11 4 11 10 1 12 12 3 13 13 7 14 15 5 15 14 3 16 16 2 17 17 6 18 19 7 19 18 2 20 20 0 21 21 4 22 23 6 23 22</p></polylist>
+      </mesh>
+    </geometry>
+    <geometry id="aws_Billboard_01_collision_ncl1_2-lib" name="aws_Billboard_01_collision_ncl1_2Mesh">
+      <mesh>
+        <source id="aws_Billboard_01_collision_ncl1_2-POSITION">
+          <float_array id="aws_Billboard_01_collision_ncl1_2-POSITION-array" count="24">
+1178.917480 -45.602936 0.000000
+1178.917480 18.929718 0.000000
+1363.942383 18.929718 0.000000
+1363.942383 -45.602936 0.000000
+1178.917480 -45.602936 1113.175659
+1363.942383 -45.602936 1113.175659
+1363.942383 18.929718 1113.175659
+1178.917480 18.929718 1113.175659
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_2-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision_ncl1_2-Normal0">
+          <float_array id="aws_Billboard_01_collision_ncl1_2-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_2-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Billboard_01_collision_ncl1_2-UV0">
+          <float_array id="aws_Billboard_01_collision_ncl1_2-UV0-array" count="48">
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Billboard_01_collision_ncl1_2-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Billboard_01_collision_ncl1_2-VERTEX">
+          <input semantic="POSITION" source="#aws_Billboard_01_collision_ncl1_2-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Billboard_01_collision_ncl1_2-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Billboard_01_collision_ncl1_2-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Billboard_01_collision_ncl1_2-UV0"/><vcount>4 4 4 4 4 4 </vcount><p> 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 0 8 8 3 9 9 5 10 10 4 11 11 3 12 12 2 13 13 6 14 14 5 15 15 2 16 16 1 17 17 7 18 18 6 19 19 1 20 20 0 21 21 4 22 22 7 23 23</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_Billboard_01_collision" name="aws_Billboard_01_collision">
+      <node name="aws_Billboard_01_collision" id="aws_Billboard_01_collision" sid="aws_Billboard_01_collision"><matrix sid="matrix">0.580700 0.000000 0.000000 1.057580 0.000000 0.580700 0.000000 -2.796005 0.000000 0.000000 0.580700 0.605988 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Billboard_01_collision-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="aws_Billboard_01_collision_ncl1_1" id="aws_Billboard_01_collision_ncl1_1" sid="aws_Billboard_01_collision_ncl1_1"><matrix sid="matrix">0.580700 0.000000 0.000000 1.057580 0.000000 0.580700 0.000000 -2.796005 0.000000 0.000000 0.580700 3.661774 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Billboard_01_collision_ncl1_1-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="aws_Billboard_01_collision_ncl1_2" id="aws_Billboard_01_collision_ncl1_2" sid="aws_Billboard_01_collision_ncl1_2"><matrix sid="matrix">0.580700 0.000000 0.000000 1.057580 0.000000 0.580700 0.000000 -2.796005 0.000000 0.000000 0.580700 0.247284 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Billboard_01_collision_ncl1_2-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_Billboard_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>

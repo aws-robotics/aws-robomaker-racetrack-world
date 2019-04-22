@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-09-30T12:38:15Z</created><keywords></keywords><modified>2018-09-30T12:38:15Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="aws_Column_01_collision-lib" name="aws_Column_01_collisionMesh">
+      <mesh>
+        <source id="aws_Column_01_collision-POSITION">
+          <float_array id="aws_Column_01_collision-POSITION-array" count="24">
+91.575500 32.486198 0.000000
+-17.653866 95.549805 0.000000
+-92.392204 -33.900795 0.000000
+16.837143 -96.964401 0.000000
+91.575500 32.486198 297.658630
+-17.653866 95.549805 297.658630
+-92.392204 -33.900795 297.658630
+16.837143 -96.964401 297.658630
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Column_01_collision-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Column_01_collision-Normal0">
+          <float_array id="aws_Column_01_collision-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.965926 0.258819 0.000000
+-0.258819 0.965926 0.000000
+-0.258819 0.965926 0.000000
+0.965926 0.258819 0.000000
+-0.258819 0.965926 0.000000
+-0.965926 -0.258819 0.000000
+-0.965926 -0.258819 0.000000
+-0.258819 0.965926 0.000000
+-0.965926 -0.258819 0.000000
+0.258819 -0.965926 0.000000
+0.258819 -0.965926 0.000000
+-0.965926 -0.258819 0.000000
+0.258819 -0.965926 0.000000
+0.965926 0.258819 0.000000
+0.965926 0.258819 0.000000
+0.258819 -0.965926 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Column_01_collision-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Column_01_collision-UV0">
+          <float_array id="aws_Column_01_collision-UV0-array" count="52">
+0.020001 0.020000
+0.183483 0.020000
+0.183483 0.994431
+0.020000 0.994431
+0.346966 0.020001
+0.346965 0.994431
+0.510448 0.020001
+0.510448 0.994431
+0.673931 0.020001
+0.673931 0.994431
+0.837413 0.020001
+0.837414 0.994431
+0.291747 0.343975
+0.139376 0.607887
+0.291747 0.871800
+0.596487 0.871800
+0.596487 0.871800
+0.291747 0.871800
+0.139376 0.607887
+0.291747 0.343975
+0.596487 0.343975
+0.748857 0.607887
+0.748857 0.607887
+0.596487 0.343975
+1.000896 0.020000
+1.000896 0.994431
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Column_01_collision-UV0-array" count="26" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Column_01_collision-UV1">
+          <float_array id="aws_Column_01_collision-UV1-array" count="52">
+0.000500 0.000500
+0.126013 0.000500
+0.126013 0.712800
+0.000500 0.712800
+0.231137 0.000500
+0.231137 0.712800
+0.356650 0.000500
+0.356650 0.712800
+0.482163 0.000500
+0.482163 0.712800
+0.587287 0.000500
+0.587287 0.712800
+0.419397 0.716585
+0.337726 0.858043
+0.419397 0.999500
+0.582738 0.999500
+0.245511 0.999500
+0.082170 0.999500
+0.000500 0.858043
+0.082171 0.716585
+0.245511 0.716585
+0.327182 0.858043
+0.664408 0.858043
+0.582738 0.716585
+0.712800 0.000500
+0.712800 0.712800
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Column_01_collision-UV1-array" count="26" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Column_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_Column_01_collision-POSITION"/>
+        </vertices>
+        <polylist count="6"><input semantic="VERTEX" offset="0" source="#aws_Column_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Column_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Column_01_collision-UV0"/><input semantic="TEXCOORD" offset="3" set="1" source="#aws_Column_01_collision-UV1"/><vcount>4 4 4 4 4 4 </vcount><p> 1 0 14 14 0 1 22 22 3 2 23 23 2 3 13 13 0 4 0 0 1 5 4 4 5 6 5 5 4 7 3 3 1 8 4 4 2 9 6 6 6 10 7 7 5 11 5 5 2 12 6 6 3 13 10 10 7 14 11 11 6 15 7 7 3 16 10 10 0 17 24 24 4 18 25 25 7 19 11 11 5 20 17 17 6 21 18 18 7 22 20 20 4 23 21 21</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_Column_01_collision" name="aws_Column_01_collision">
+      <node name="aws_Column_01_collision" id="aws_Column_01_collision" layer="Layer001" sid="aws_Column_01_collision"><matrix sid="matrix">0.640553 0.000000 0.000000 -0.000039 0.000000 0.640553 0.000000 -0.000313 0.000000 0.000000 1.674793 -0.000007 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Column_01_collision-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_Column_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>

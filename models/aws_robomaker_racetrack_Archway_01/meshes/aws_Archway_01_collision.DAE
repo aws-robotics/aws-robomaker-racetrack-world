@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2018-09-30T12:21:42Z</created><keywords></keywords><modified>2018-09-30T12:21:42Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_materials>
+    <material id="MaterialFBXASC032FBXASC035144" name="MaterialFBXASC032FBXASC035144">
+      <instance_effect url="#MaterialFBXASC032FBXASC035144-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="MaterialFBXASC032FBXASC035144-fx" name="MaterialFBXASC032FBXASC035144">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="aws_Archway_01_collision-lib" name="aws_Archway_01_collisionMesh">
+      <mesh>
+        <source id="aws_Archway_01_collision-POSITION">
+          <float_array id="aws_Archway_01_collision-POSITION-array" count="48">
+-359.968903 26.484518 0.000000
+359.968903 20.010843 0.000000
+-359.967865 242.441971 0.000000
+359.967865 235.750290 0.000000
+-359.970428 26.318380 500.000000
+359.966980 19.817772 500.000000
+-359.968597 242.357666 500.000000
+359.966888 235.652374 500.000000
+-267.307404 241.593079 0.000000
+266.945160 236.602646 0.000000
+267.308136 20.819588 0.000000
+-266.945831 25.672279 0.000000
+221.751251 21.257141 411.894531
+-221.802429 25.238670 411.894531
+-221.750549 241.155487 411.894531
+221.801758 237.036194 411.894531
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Archway_01_collision-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Archway_01_collision-Normal0">
+          <float_array id="aws_Archway_01_collision-Normal0-array" count="144">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+1.000000 0.000003 0.000003
+1.000000 0.000003 0.000003
+1.000000 0.000003 0.000003
+1.000000 0.000003 0.000003
+-1.000000 0.000007 -0.000002
+-1.000000 0.000007 -0.000002
+-1.000000 0.000007 -0.000002
+-1.000000 0.000007 -0.000002
+-0.008687 -0.999961 -0.001249
+-0.009294 -0.999956 -0.001235
+-0.009422 -0.999955 -0.000873
+-0.008542 -0.999963 -0.000895
+0.009448 0.999955 0.000626
+0.009139 0.999958 0.000634
+0.009066 0.999959 0.000454
+0.009512 0.999955 0.000443
+-0.009655 -0.999953 -0.000214
+-0.009422 -0.999955 -0.000873
+-0.009294 -0.999956 -0.001235
+-0.009655 -0.999953 -0.000214
+-0.008542 -0.999963 -0.000895
+-0.008278 -0.999966 -0.000248
+-0.008278 -0.999966 -0.000248
+-0.008687 -0.999961 -0.001249
+0.008932 0.999960 0.000126
+0.009066 0.999959 0.000454
+0.009139 0.999958 0.000634
+0.008932 0.999960 0.000126
+0.009512 0.999955 0.000443
+0.009631 0.999954 0.000109
+0.009631 0.999954 0.000109
+0.009448 0.999955 0.000626
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.993993 -0.000720 -0.109439
+-0.993993 -0.000720 -0.109439
+-0.993993 -0.000720 -0.109439
+-0.993993 -0.000720 -0.109439
+0.993993 0.000713 -0.109439
+0.993993 0.000713 -0.109439
+0.993993 0.000713 -0.109439
+0.993993 0.000713 -0.109439
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Archway_01_collision-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aws_Archway_01_collision-UV0">
+          <float_array id="aws_Archway_01_collision-UV0-array" count="80">
+0.176508 0.529986
+0.014412 0.528428
+0.014579 -0.012545
+0.176839 -0.010987
+-0.005383 0.921721
+0.098437 0.855520
+0.431731 0.855520
+0.535590 0.921721
+-0.013109 -0.012931
+0.220971 -0.012931
+0.220971 0.529599
+-0.013109 0.529599
+0.534032 0.921721
+0.430212 0.855520
+0.096918 0.855520
+-0.006941 0.921721
+0.220729 -0.012931
+-0.013587 -0.012931
+-0.013587 0.529599
+0.220729 0.529599
+0.465963 0.546028
+0.535590 0.546028
+-0.005383 0.546028
+0.064516 0.546028
+0.062686 0.546028
+-0.006941 0.546028
+0.534032 0.546028
+0.464133 0.546028
+-0.013197 -0.012931
+-0.013197 0.433999
+0.220926 0.433999
+0.220926 -0.012931
+0.220773 -0.012931
+0.220773 0.433999
+-0.013499 0.433999
+-0.013499 -0.012931
+0.176569 0.426127
+0.176778 0.092833
+0.014548 0.091314
+0.014443 0.424608
+</float_array>
+          <technique_common>
+            <accessor source="#aws_Archway_01_collision-UV0-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aws_Archway_01_collision-VERTEX">
+          <input semantic="POSITION" source="#aws_Archway_01_collision-POSITION"/>
+        </vertices>
+        <polylist count="12" material="MaterialFBXASC032FBXASC035144"><input semantic="VERTEX" offset="0" source="#aws_Archway_01_collision-VERTEX"/><input semantic="NORMAL" offset="1" source="#aws_Archway_01_collision-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#aws_Archway_01_collision-UV0"/><vcount>4 4 4 4 4 4 4 4 4 4 4 4 </vcount><p> 5 0 0 7 1 1 6 2 2 4 3 3 3 4 9 7 5 10 5 6 11 1 7 8 0 8 17 4 9 18 6 10 19 2 11 16 13 12 5 12 13 6 5 14 7 4 15 4 15 16 13 14 17 14 6 18 15 7 19 12 1 20 21 5 21 7 12 22 6 10 23 20 4 24 4 0 25 22 11 26 23 13 27 5 2 28 25 6 29 15 14 30 14 8 31 24 7 32 12 3 33 26 9 34 27 15 35 13 13 36 37 14 37 38 15 38 39 12 39 36 12 40 29 15 41 30 9 42 31 10 43 28 14 44 33 13 45 34 11 46 35 8 47 32</p></polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="aws_Archway_01_collision" name="aws_Archway_01_collision">
+      <node name="aws_Archway_01_collision" id="aws_Archway_01_collision" sid="aws_Archway_01_collision"><matrix sid="matrix">0.999954 -0.009604 0.000000 0.000000 0.009604 0.999954 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#aws_Archway_01_collision-lib"><bind_material><technique_common><instance_material symbol="MaterialFBXASC032FBXASC035144" target="#MaterialFBXASC032FBXASC035144"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#aws_Archway_01_collision"></instance_visual_scene>
+  </scene>
+</COLLADA>
