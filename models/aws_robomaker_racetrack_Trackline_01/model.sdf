@@ -5,16 +5,15 @@
       <pose frame=''>0 0 0 0 -0 0</pose>
       <inertial>
         <mass>0.5</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <inertia>
-          <ixx>1</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>1</iyy>
-          <iyz>0</iyz>
-          <izz>1</izz>
-        </inertia>
-      </inertial>
+	<inertia>
+	    <ixx>  1.5847391595e+02 </ixx>
+	    <ixy> -3.7695694445e-13 </ixy>
+	    <ixz>  4.0595655715e-03 </ixz>
+	    <iyy>  5.8367762389e+02 </iyy>
+	    <iyz> -1.3896112803e-10 </iyz>
+	    <izz>  4.2520375709e+02 </izz>
+	  </inertia>
+	</inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <gravity>1</gravity>

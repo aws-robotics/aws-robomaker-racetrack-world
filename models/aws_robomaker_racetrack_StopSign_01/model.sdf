@@ -8,16 +8,15 @@
       <gravity>1</gravity>
       <inertial>
         <mass>2</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <inertia>
-          <ixx>1</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>1</iyy>
-          <iyz>0</iyz>
-          <izz>1</izz>
-        </inertia>
-      </inertial>
+	<inertia>
+	    <ixx>  1.2796731050e-01 </ixx>
+	    <ixy> -3.6145732160e-04 </ixy>
+	    <ixz> -9.3029649067e-06 </ixz>
+	    <iyy>  1.2193428047e-02 </iyy>
+	    <iyz> -2.1357813230e-03 </iyz>
+	    <izz>  1.3992584492e-01 </izz>
+	  </inertia>
+	</inertial>
       <visual name='visual'>
         <geometry>
           <mesh>
