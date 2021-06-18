@@ -4,19 +4,19 @@
 
 This is the ROS2 version of [AWS RoboMaker Racetrack World](https://github.com/aws-robotics/aws-robomaker-racetrack-world).
 
-### Colaborators
+## Colaborators
 [Computer Fusion Laboratory (CFL) - Temple University College of Engineering](https://sites.temple.edu/cflab/people/)
 * [Animesh Bala Ani](https://animeshani.com/)
 * [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
 
-
-### Download Package
-Update `.rosinstall` file and run `rosws update` to clone this repository
+## Download Package
+Download package in a ROS workspace.
+```
+git clone https://github.com/ANI717/aws-robomaker-racetrack-world
+```
+Or update `.rosinstall` file with following command and run `rosws update` to clone this repository
 ```
 - git: {local-name: src/deps/aws-robomaker-racetrack-world, uri: 'https://github.com/ANI717/aws-robomaker-racetrack-world.git', version: ros2}
 ```
 
-### Manual Download
-```
-git clone https://github.com/ANI717/aws-robomaker-racetrack-world
-```
+
