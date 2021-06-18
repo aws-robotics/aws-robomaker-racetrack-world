@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">AWS Robomaker Racetrack World ROS2</h1>
+  <h1 align="center">AWS RoboMaker Racetrack World ROS2</h1>
 </p>
 
 This is ROS2 version of [AWS RoboMaker Race Track World](https://github.com/aws-robotics/aws-robomaker-racetrack-world).
