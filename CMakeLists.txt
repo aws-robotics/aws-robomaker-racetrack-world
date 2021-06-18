@@ -1,12 +1,18 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
+
 project(aws_robomaker_racetrack_world)
 
-find_package(catkin REQUIRED COMPONENTS
-  gazebo_ros
+find_package(ament_cmake REQUIRED)
+find_package(gazebo_ros REQUIRED)
+
+install(
+  DIRECTORY launch models worlds
+  DESTINATION share/${PROJECT_NAME}
 )
 
-catkin_package()
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/aws_robomaker_racetrack_world.dsv.in")
 
-install(DIRECTORY launch models worlds 
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
+ament_export_dependencies(ament_cmake)
+ament_export_dependencies(gazebo_ros)
+
+ament_package()
