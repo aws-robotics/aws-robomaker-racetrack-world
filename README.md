@@ -1,4 +1,7 @@
-# aws-robomaker-racetrack-world
+<p align="center">
+  <h1 align="center">AWS Robomaker Racetrack World ROS2</h1>
+</p>
+
 This is ROS2 version of [AWS RoboMaker Race Track World](https://github.com/aws-robotics/aws-robomaker-racetrack-world).
 
 Update .rosinstall to clone this repository and run `rosws update`
