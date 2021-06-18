@@ -11,7 +11,7 @@ This is the ROS2 version of [AWS RoboMaker Racetrack World](https://github.com/a
 
 
 ### Download Package
-Update .rosinstall to clone this repository and run `rosws update`
+Update `.rosinstall` file and run `rosws update` to clone this repository
 ```
 - git: {local-name: src/deps/aws-robomaker-racetrack-world, uri: 'https://github.com/ANI717/aws-robomaker-racetrack-world.git', version: ros2}
 ```
