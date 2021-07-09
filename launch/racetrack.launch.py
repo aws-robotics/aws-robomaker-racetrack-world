@@ -1,59 +1,80 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""ROS2 AWS Robomaker Racetrack World Launch File.
+
+This script launches AWS Racetrack World in ROS2. 
+
+Revision History:
+
+        2021-12-25 (Animesh): Baseline Software.
+
+Example:
+        $ ros2 launch aws_robomaker_racetrack_world racetrack.launch.py
+
+"""
+
+
+#___Import Modules:
 import os
 
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch.conditions import IfCondition
-from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PythonExpression
-from launch_ros.actions import Node
 
+
+#___Function:
 def generate_launch_description():
-	# Get the launch directory
-    aws_racetrack_world_dir = get_package_share_directory('aws_robomaker_racetrack_world')
-  
-    # Launch configuration variables specific to simulation
-    use_sim_time = LaunchConfiguration('use_sim_time')
-    use_simulator = LaunchConfiguration('use_simulator')
-    headless = LaunchConfiguration('headless')
-    world = LaunchConfiguration('world')
-  
-    declare_use_sim_time_cmd = DeclareLaunchArgument(
-		'use_sim_time',
-		default_value='True',
-		description='Use simulation (Gazebo) clock if true')
-    
-    declare_simulator_cmd = DeclareLaunchArgument(
-		'headless',
-		default_value='False',
-		description='Whether to execute gzclient')
-    
-    declare_world_cmd = DeclareLaunchArgument(
-		'world',
-		default_value=os.path.join(aws_racetrack_world_dir, 'worlds', 'racetrack_day.world'),
-		description='Full path to world model file to load')
 	
-	# Specify the actions
-    start_gazebo_server_cmd = ExecuteProcess(
-		cmd=['gzserver', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world],
-		cwd=[aws_racetrack_world_dir], output='screen')
+    # set directories
+    aws_robomaker_racetrack_world_DIR = get_package_share_directory('aws_robomaker_racetrack_world')
     
-    start_gazebo_client_cmd = ExecuteProcess(
-		condition=IfCondition(PythonExpression(['not ', headless])),
-		cmd=['gzclient'],
-        cwd=[aws_racetrack_world_dir], output='screen')
-	
-	# Create the launch description and populate
-    ld = LaunchDescription()
-
-	# Declare the launch options
-    ld.add_action(declare_use_sim_time_cmd)
-    ld.add_action(declare_simulator_cmd)
-    ld.add_action(declare_world_cmd)
-
-	# Add any conditioned actions
-    ld.add_action(start_gazebo_server_cmd)
-    ld.add_action(start_gazebo_client_cmd)
+    # launch arguments
+    use_sim_time_launch_argument = DeclareLaunchArgument(
+		name = 'use_sim_time',
+		default_value = 'True',
+		description = 'Use simulation (Gazebo) clock if true',
+        )
     
-    return ld
+    headless_launch_argument = DeclareLaunchArgument(
+		name = 'headless',
+		default_value = 'False',
+		description = 'Run gzclient or not for GUI',
+        )
+    
+    world_launch_argument = DeclareLaunchArgument(
+		name = 'world',
+		default_value = os.path.join(aws_robomaker_racetrack_world_DIR, 'worlds', 'racetrack_day.world'),
+		description = 'Full path to world model file to load',
+        )
+    
+	# execute processes
+    start_gazebo_server = ExecuteProcess(
+		cmd = ['gzserver', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', LaunchConfiguration('world')],
+		cwd = [aws_robomaker_racetrack_world_DIR],
+        output = 'screen',
+        )
+    
+    start_gazebo_client = ExecuteProcess(
+		condition = IfCondition(PythonExpression(['not ', LaunchConfiguration('headless')])),
+		cmd = ['gzclient'],
+        cwd = [aws_robomaker_racetrack_world_DIR], 
+        output = 'screen',
+        )
+        
+    # return launch description
+    return LaunchDescription([
+        use_sim_time_launch_argument,
+        headless_launch_argument,
+        world_launch_argument,
+        start_gazebo_server,
+        start_gazebo_client,
+        ])
+
+
+#                                                                              
+# end of file
+"""ANI717"""
