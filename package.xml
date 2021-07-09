@@ -9,7 +9,7 @@
   <author email="animesh.ani@live.com">ANI717</author>
   <maintainer email="animesh.ani@live.com">ANI717</maintainer>
   
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
   
   <exec_depend>gazebo_ros</exec_depend>
   <exec_depend>gazebo</exec_depend>
