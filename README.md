@@ -11,12 +11,24 @@
 - git: {local-name: src/aws-robomaker-racetrack-world, uri: 'https://github.com/aws-robotics/aws-robomaker-racetrack-world.git', version: master}
 ```
 * Add the following to your launch file:
-```xml
-<launch>
-  <!-- Launch World -->
-  <include file="$(find aws_robomaker_racetrack_world)/launch/racetrack.launch"/>
-  ...
-</launch>
+
+* Add the following include to the ROS2 launch file you are using:
+
+```python
+    import os
+    from ament_index_python.packages import get_package_share_directory
+    from launch import LaunchDescription
+    from launch.actions import IncludeLaunchDescription
+    from launch.launch_description_sources import PythonLaunchDescriptionSource
+    def generate_launch_description():
+        racetrack_pkg_dir = get_package_share_directory('aws_robomaker_racetrack_world')
+        racetrack_launch_path = os.path.join(warehouse_pkg_dir, 'launch')
+        racetrack_world_cmd = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([racetrack_launch_path, '/racetrack.launch.py'])
+        )
+        ld = LaunchDescription()
+        ld.add_action(racetrack_world_cmd)
+        return ld
 ```
 
 # Load directly into Gazebo (without ROS)
@@ -27,13 +39,13 @@ gazebo worlds/racetrack_day.world
 
 # ROS Launch with Gazebo viewer (without a robot)
 ```bash
-# build for ROS
+# build for ROS2
 rosdep install --from-paths . --ignore-src -r -y
 colcon build
 
-# run in ROS
+# run in ROS2
 source install/setup.sh
-roslaunch aws_robomaker_racetrack_world view_racetrack.launch
+ros2 launch aws_robomaker_racetrack_world view_racetrack.launch.py
 ```
 
 # Robot Simulation
@@ -53,19 +65,19 @@ $ colcon build
 # Modes
 ## Day 
 ```
-roslaunch aws_robomaker_racetrack_world view_racetrack.launch gui:=true mode:=day
+ros2 launch aws_robomaker_racetrack_world view_racetrack.launch.py gui:=true mode:=day
 ```
 ![Gazebo01](docs/images/day_01.png)
 
 ## Day Emtpy 
 ```
-roslaunch aws_robomaker_racetrack_world view_racetrack.launch gui:=true mode:=day_empty
+ros2 launch aws_robomaker_racetrack_world view_racetrack.launch.py gui:=true mode:=day_empty
 ```
 ![Gazebo01](docs/images/day_empty_01.png)
 
 ## Night
 ```
-roslaunch aws_robomaker_racetrack_world view_racetrack.launch gui:=true mode:=night
+ros2 launch aws_robomaker_racetrack_world view_racetrack.launch.py gui:=true mode:=night
 ```
 ![Gazebo01](docs/images/night_01.png)
 
