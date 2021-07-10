@@ -1,12 +1,28 @@
-cmake_minimum_required(VERSION 2.8.3)
+################################################################################
+# Set minimum required version of cmake, project name and compile options
+################################################################################
+cmake_minimum_required(VERSION 3.5)
 project(aws_robomaker_racetrack_world)
 
-find_package(catkin REQUIRED COMPONENTS
-  gazebo_ros
+################################################################################
+# Find ament packages and libraries for ament and system dependencies
+################################################################################
+find_package(ament_cmake REQUIRED)
+find_package(gazebo_ros REQUIRED)
+
+
+################################################################################
+# Install
+################################################################################
+
+install(DIRECTORY launch models worlds
+	DESTINATION share/${PROJECT_NAME}
 )
 
-catkin_package()
+ament_export_dependencies(ament_cmake)
+ament_export_dependencies(gazebo_ros)
 
-install(DIRECTORY launch models worlds 
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
+################################################################################
+# Macro for ament package
+################################################################################
+ament_package()
