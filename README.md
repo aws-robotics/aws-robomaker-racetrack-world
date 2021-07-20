@@ -8,7 +8,7 @@
 
 * Update .rosinstall to clone this repository and run `rosws update`
 ```
-- git: {local-name: src/aws-robomaker-racetrack-world, uri: 'https://github.com/aws-robotics/aws-robomaker-racetrack-world.git', version: master}
+- git: {local-name: src/aws-robomaker-racetrack-world, uri: 'https://github.com/aws-robotics/aws-robomaker-racetrack-world.git', version: ros1}
 ```
 * Add the following to your launch file:
 ```xml
