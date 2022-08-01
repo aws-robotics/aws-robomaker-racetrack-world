@@ -14,8 +14,7 @@ def generate_launch_description():
                     'aws_robomaker_racetrack_world'), '/launch/racetrack.launch.py']
             ),
             launch_arguments={
-                'gui': 'true',
-                'mode': 'day'
+                'gui': 'true'
             }.items()
         )
     ])
