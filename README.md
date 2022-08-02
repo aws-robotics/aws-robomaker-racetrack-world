@@ -49,7 +49,7 @@ ros2 launch aws_robomaker_racetrack_world view_racetrack.launch.py
 ```
 
 # Robot Simulation
-A good initial robot position near the start line is (2.75, -14.00, 0.0).   
+A good initial robot position near the start line is (2.75, -15.00, 0.2).   
 
 ![Gazebo01](docs/images/turtlebot_burger.png)
 
